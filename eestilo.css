@@ -1,0 +1,130 @@
+body{
+	background: #F2F2F2;
+}
+h1{
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 50px;
+	text-align: center;
+}
+p{
+	color: #FF0000;
+	font-family: Arial;
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+.p1{
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 13px;
+	text-align: center;
+	font-style: italic;
+}
+li{
+	color: #000000;
+	font-family: Arial;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+table{
+	color: #8A0808;
+	font-family: Arial;
+	font-size: 12px;
+	text-align: center;
+	padding: 1%;
+	border-style: solid;
+	border-color: #8A0808;
+	width: 40%;
+	height: 20%;
+	
+}
+tr{
+	color: #8A0808;
+	text-align: center;
+}
+th{
+	text-align: center;
+	background: #F2F2F2;
+}
+td{
+	text-align: center;
+	background: #F2F2F2;
+}
+/*sin borde*/
+.sin{
+	border-style: transparent;
+	border: 0;
+}
+div{
+	background: #F7BE81;
+}
+.div1{
+	background: #790909;
+}
+.div2{
+	background: #A4A4A4;
+}
+.div3{
+	background: #F6CECE;
+}
+.caja{
+	height: 330px;
+	width: 250px;
+	background: #eee;
+	border: 1px solid;
+	margin: 5px;
+	text-align: center;
+	color: black;
+	font-family: "Lato", Sans-serif;
+	display: inline-block;
+}
+.caja:hover{
+	box-shadow: 0 0 10px black;
+	transform: scale(1.3);
+}
+.caja-texto{
+	padding-bottom: 5px;
+	padding-top: 2px;
+	font-size: 30px;
+	color: red;
+	font-weight: bold;
+}
+.texto-adicional{
+	padding-top: 5px;
+	font-size: 25px;
+}
+
+@font-face{
+	font-family: "pepinillo";
+	src: url(Bubbles.ttf);
+}
+#fuente-Bubbles{
+	font-family: "pepinillo";
+}
+@font-face{
+	font-family: "chorizo";
+	src: url(Moonstone.ttf);
+}
+#fuente-Moonstone{
+	font-family: "chorizo";
+}
+.caja2{
+	height: 140px;
+	width: 140px;
+	background: #eee;
+	border: 1px solid;
+	margin: 5px;
+	text-align: center;
+	color: black;
+	font-family: "Lato", Sans-serif;
+	display: inline-block;
+}
+.caja2:hover{
+	box-shadow: 0 0 10px yellow;
+	transform: scale(1.3);
+}
+
